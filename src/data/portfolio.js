@@ -1,0 +1,213 @@
+// Portfolio data for Eslam Alaa
+
+export const personalInfo = {
+  name: "Eslam Alaa",
+  title: "MERN Stack Developer",
+  roles: ["MERN Stack Developer", "Front-End Engineer", "CS Student", "Problem Solver", "UI Craftsman"],
+  email: "ea33669900@gmail.com",
+  phone: "01004037294",
+  location: "Damanhour, Egypt",
+  linkedin: "https://www.linkedin.com/in/eslam-alaa-sherif",
+  github: "https://github.com/Eslam-Alaa-ElDeen",
+  bio: "A passionate CS student at Damanhour University and MERN Stack developer in training at ITI. I build modern, performant web applications with clean code and elegant UI. Driven by curiosity, shaped by problem-solving.",
+  bioExtended: "Currently enrolled in the MERN Stack program at the Information Technology Institute (ITI) in Damanhour, I combine academic foundations in computer science with hands-on development experience. My journey spans C++ fundamentals, OOP, data structures, front-end engineering, and full-stack JavaScript development.",
+  available: true,
+};
+
+export const skills = {
+  frontend: [
+    { name: "React.js", level: 80, icon: "react" },
+    { name: "HTML5 & CSS3", level: 95, icon: "html" },
+    { name: "JavaScript (ES6+)", level: 82, icon: "js" },
+    { name: "Bootstrap", level: 88, icon: "bootstrap" },
+    { name: "Tailwind CSS", level: 75, icon: "tailwind" },
+  ],
+  backend: [
+    { name: "Node.js", level: 70, icon: "node" },
+    { name: "Express.js", level: 68, icon: "express" },
+    { name: "MongoDB", level: 72, icon: "mongo" },
+    { name: "REST APIs", level: 75, icon: "api" },
+    { name: "JDBC / Java", level: 65, icon: "java" },
+  ],
+  tools: [
+    { name: "Git & GitHub", level: 85, icon: "git" },
+    { name: "VS Code", level: 95, icon: "vscode" },
+    { name: "Adobe Photoshop", level: 75, icon: "photoshop" },
+    { name: "Adobe Illustrator", level: 70, icon: "illustrator" },
+    { name: "C++", level: 78, icon: "cpp" },
+  ],
+};
+
+export const skillCategories = [
+  {
+    title: "Frontend",
+    color: "#00f5ff",
+    items: [
+      { name: "React.js", icon: "⚛️" },
+      { name: "HTML5", icon: "🌐" },
+      { name: "CSS3", icon: "🎨" },
+      { name: "JavaScript", icon: "⚡" },
+      { name: "Bootstrap", icon: "📦" },
+      { name: "Tailwind", icon: "🌊" },
+    ],
+  },
+  {
+    title: "Backend",
+    color: "#b44fff",
+    items: [
+      { name: "Node.js", icon: "🟢" },
+      { name: "Express.js", icon: "🚂" },
+      { name: "MongoDB", icon: "🍃" },
+      { name: "REST APIs", icon: "🔌" },
+      { name: "JDBC", icon: "☕" },
+    ],
+  },
+  {
+    title: "Tools & Other",
+    color: "#00ff88",
+    items: [
+      { name: "Git / GitHub", icon: "🐙" },
+      { name: "VS Code", icon: "💻" },
+      { name: "Photoshop", icon: "🖼️" },
+      { name: "Illustrator", icon: "✏️" },
+    ],
+  },
+];
+ 
+export const projects = [
+  {
+    id: 1,
+    title: "Dev Portfolio",
+    description: "A stunning personal portfolio built with React and Tailwind CSS, featuring smooth animations, particle backgrounds, and a modern dark theme.",
+    tech: ["React", "Tailwind CSS", "Framer Motion"],
+    category: "Web",
+    image: null,
+    gradient: "from-cyan-500/20 to-purple-500/20",
+    accent: "#00f5ff",
+    demo: "https://github.com/Eslam-Alaa-ElDeen",
+    github: "https://github.com/Eslam-Alaa-ElDeen",
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "E-Commerce UI",
+    description: "Modern e-commerce front-end with product filtering, cart management, responsive grid layouts, and smooth micro-interactions.",
+    tech: ["HTML5", "CSS3", "Bootstrap", "JavaScript"],
+    category: "Web",
+    image: null,
+    gradient: "from-purple-500/20 to-pink-500/20",
+    accent: "#b44fff",
+    demo: "https://github.com/Eslam-Alaa-ElDeen",
+    github: "https://github.com/Eslam-Alaa-ElDeen",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "Clinic-Management-System",
+    description: "This project is a Clinic Management System developed using Java (Swing) for the graphical user interface and JDBC for database connectivity",
+    tech: ["Java", "Swing", "JDBC","sql","OOP","Data Structures"],
+    category: "Apps",
+    image: null,
+    gradient: "from-green-500/20 to-teal-500/20",
+    accent: "#00ff88",
+    demo: "https://github.com/Eslam-Alaa-ElDeen/Clinic-Management-System",
+    github: "https://github.com/Eslam-Alaa-ElDeen/Clinic-Management-System",
+    featured: false,
+  },
+
+];
+
+export const experience = [
+  {
+    id: 1,
+    type: "work",
+    title: "MERN Stack Developer",
+    company: "Information Technology Institute (ITI)",
+    location: "Damanhour, Egypt",
+    period: "Nov 2025 – Present",
+    duration: "7 months",
+    description: "Intensive full-stack JavaScript training program covering the complete MERN stack. Building real-world applications with MongoDB, Express.js, React, and Node.js.",
+    highlights: ["React.js & Component Architecture", "Node.js & Express REST APIs", "MongoDB & Mongoose ODM", "Full-Stack Project Development"],
+    color: "#00f5ff",
+    icon: "💻",
+  },
+  {
+    id: 2,
+    type: "work",
+    title: "Front-End Developer",
+    company: "National Telecommunication Institute (NTI)",
+    location: "Egypt",
+    period: "Aug 2025 – Sep 2025",
+    duration: "2 months",
+    description: "Hands-on front-end development training. Built multiple responsive web projects using HTML5, CSS3, Bootstrap, and JavaScript with clean code practices.",
+    highlights: ["Responsive Web Design", "Bootstrap Framework", "JavaScript DOM Manipulation", "Clean Code & Best Practices"],
+    color: "#b44fff",
+    icon: "🎨",
+  },
+  {
+    id: 3,
+    type: "work",
+    title: "Graphic Designer",
+    company: "Information Technology Institute (ITI)",
+    location: "Damanhour, Egypt",
+    period: "Aug 2025",
+    duration: "1 month",
+    description: "Creative design training using industry-standard Adobe tools. Completed multiple design projects covering digital art, brand identity, and visual communication.",
+    highlights: ["Adobe Photoshop", "Adobe Illustrator", "Brand Identity Design", "Visual Communication"],
+    color: "#00ff88",
+    icon: "✏️",
+  },
+  {
+    id: 4,
+    type: "work",
+    title: "Programming Fundamentals Trainee",
+    company: "Programming Advices",
+    location: "Remote",
+    period: "Oct 2024 – Present",
+    duration: "1+ year",
+    description: "In-depth training in core CS fundamentals. Mastered C++, OOP principles, data structures, algorithms, and completed multiple practical projects.",
+    highlights: ["C++ Programming", "Object-Oriented Programming", "Data Structures & Algorithms", "Problem Solving & ICPC Prep"],
+    color: "#ff6b35",
+    icon: "⚙️",
+  },
+  {
+    id: 5,
+    type: "education",
+    title: "Bachelor's in Computer Science",
+    company: "Damanhour University",
+    location: "Damanhour, Egypt",
+    period: "2025 – 2028",
+    duration: "3 years",
+    description: "Faculty of Computers and Information. Pursuing a degree in Computer Science with focus on software engineering, algorithms, and modern computing.",
+    highlights: ["Computer Science Fundamentals", "Software Engineering", "Algorithms & Complexity", "Database Systems"],
+    color: "#4facfe",
+    icon: "🎓",
+  },
+];
+
+export const services = [
+  {
+    title: "Web Development",
+    description: "Full-stack web applications built with the MERN stack. From database design to pixel-perfect UI.",
+    icon: "🌐",
+    color: "#00f5ff",
+  },
+  {
+    title: "Front-End Engineering",
+    description: "Responsive, performant, and accessible UIs using React, Tailwind, and modern JavaScript.",
+    icon: "⚡",
+    color: "#b44fff",
+  },
+  {
+    title: "UI/UX Design",
+    description: "Clean, intuitive interfaces with strong visual hierarchy. Design that converts and delights.",
+    icon: "🎨",
+    color: "#00ff88",
+  },
+  {
+    title: "Graphic Design",
+    description: "Brand identities, social media graphics, and visual assets using Adobe Photoshop & Illustrator.",
+    icon: "✏️",
+    color: "#ff6b35",
+  },
+];
