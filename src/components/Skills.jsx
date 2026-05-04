@@ -109,7 +109,7 @@ export default function Skills() {
           </h3>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { name: 'ICPC Level Zero Training', org: 'ICPC', color: '#00f5ff', icon: '🧩' },
+              { name: 'ICPC Level Zero & One Training', org: 'ICPC', color: '#00f5ff', icon: '🧩' },
               { name: 'MERN Stack Developer', org: 'Information Technology Institute (ITI)', color: '#b44fff', icon: '💻' },
               { name: 'Front-End Development', org: 'National Telecommunication Institute (NTI)', color: '#00ff88', icon: '🎨' },
               { name: 'Graphic Design', org: 'Information Technology Institute (ITI)', color: '#ff6b35', icon: '✏️' },
